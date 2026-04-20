@@ -1,10 +1,12 @@
 **Save Praise (◠‿◠)**
 _a kawaii kaomoji companion that lives in your editor. every time you save, it praises you and shows what changed._
 
-+12 -3  nice save (◠‿◠)
-+45     you've been busy (°o°)
-    -8  satisfying cleanup (◡‿◡)
-        just checking in? (◕ᴗ◕)
+| diff | praise |
+|------|--------|
+| `+12 -3` | nice save (◠‿◠) |
+| `+45` | you've been busy (°o°) |
+| `-8` | satisfying cleanup (◡‿◡) |
+| | just checking in? (◕ᴗ◕) |
 
 big additions get excited reactions. deletions get cleanup praise. saving with no changes? it notices that too.
 the praise appears both in the status bar (with a little highlight) and as ghost text next to your cursor. it fades after a few seconds.
