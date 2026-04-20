@@ -1,0 +1,69 @@
+{
+  "name": "save-praise",
+  "displayName": "Save Praise",
+  "description": "A kawaii kaomoji companion that praises you every time you save, with line diff stats (◠‿◠)",
+  "version": "0.1.0",
+  "publisher": "YOUR-PUBLISHER-ID",
+  "author": {
+    "name": "Your Name"
+  },
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR-USERNAME/save-praise"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "kaomoji",
+    "kawaii",
+    "save",
+    "praise",
+    "fun",
+    "productivity"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Save Praise",
+      "properties": {
+        "savePraise.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable or disable save praise messages"
+        },
+        "savePraise.duration": {
+          "type": "number",
+          "default": 3000,
+          "description": "How long the praise stays visible (ms)"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "savePraise.toggle",
+        "title": "Save Praise: Toggle On/Off"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/vscode": "^1.80.0",
+    "@vscode/vsce": "^2.22.0",
+    "typescript": "^5.1.0"
+  }
+}
