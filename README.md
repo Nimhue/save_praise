@@ -1,4 +1,5 @@
-#**Save Praise (◠‿◠)**
+# **Save Praise (◠‿◠)**
+
 _a kawaii kaomoji companion that lives in your editor. every time you save, it praises you and shows what changed._
 
 | diff | praise |
