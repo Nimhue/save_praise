@@ -11,7 +11,7 @@
   "icon": "images/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nimhue/save-praise"
+    "url": "https://github.com/Nimhue/save_praise"
   },
   "engines": {
     "vscode": "^1.80.0"
